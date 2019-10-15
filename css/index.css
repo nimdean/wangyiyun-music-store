@@ -1,0 +1,74 @@
+.body{
+  width: 100vw;
+  height: 100vh;
+}
+/* 以下是头部样式 */
+.index-header{
+  width: 100%;
+}
+.index-header nav{
+  width: 1100px;
+  margin: 0 auto;
+  line-height: 0;
+}
+.header-logo {
+  display: inline-block;
+  width: 290px;
+  height: 70px;
+  background: url(../images/sprits.png) 0 -50px no-repeat;
+  vertical-align: top;
+}
+.search-user{
+  display: inline-block;
+  width: calc(100% - 295px);
+  height: 70px;
+  text-align: right;
+}
+.header-search-input{
+  border: none;
+  outline: none;
+  background-color: none;
+  vertical-align: top;
+  width: 255px;
+  height: 30px;
+  margin-top: 15px;
+  padding: 4px 10px 4px 35px;
+  background: url(../images/sprits.png) 0 0 no-repeat;
+}
+.shopping-cart{
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url(../images/sprits.png) -110px -160px no-repeat;
+  margin: 15px 20px 0 30px;
+  vertical-align: top;
+}
+.header-user{
+  display: inline-block;
+  height: 100%;
+}
+.text-login{
+  line-height: 60px;
+  color: #333;
+}
+/* 以上是header样式 */
+.content-body{
+  width: 100%;
+}
+/* 以下是banner样式 */
+.index-banner{
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+.index-banner li{
+  width: 100%;
+  display: block;
+}
+.index-banner li a {
+  display: inline-block;
+  width: 1100px;
+  margin: 0 auto;
+  height: 480px;
+  background: url(../images/banner1.jpg) 0 0 no-repeat;
+}
