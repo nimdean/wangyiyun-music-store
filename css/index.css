@@ -129,7 +129,75 @@
 .special-board-right{
   float: right;
 }
-
+/* 编辑推荐 */
+.goods-board {
+  text-align: left;
+}
+.goods-board h4 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 68px;
+}
+.goods-cards{
+  display: flex;
+}
+.good-card{
+  width: 263px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  cursor:pointer;
+}
+.img-box{
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  position: relative;
+}
+.img-box img {
+  width: 100%;
+}
+.goods-desc{
+  color: #333;
+  font-size: 14px;
+}
+.goods-desc:hover{
+  text-decoration: underline;
+}
+.goods-desc::before{
+  content: attr(title);
+  display: inline-block;
+  color: #d33a31;
+  border: 1px solid #d33a31;
+  padding: 1px 4px;
+  margin-right: 6px;
+}
+.price{
+  text-align: center;
+  color: #d33a31;
+  line-height: 26px;
+}
+.price-before{
+  width: 60px;
+  height: 40px;
+  padding: 10px 0;
+  border-radius: 50%;
+  background: #d33a31;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 99;
+  text-align: center;
+}
+.current-price{
+  color: #fff;
+  line-height: 25px;
+}
+.old-price{
+  color: #fff;
+  line-height: 10px;
+  font-size: 13px;
+  text-decoration: line-through;
+}
 /* 页脚样式 */
 footer{
   width: 100%;
