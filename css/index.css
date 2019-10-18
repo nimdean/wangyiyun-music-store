@@ -132,6 +132,7 @@
 /* 编辑推荐 */
 .goods-board {
   text-align: left;
+  margin: 20px 0;
 }
 .goods-board h4 {
   font-size: 28px;
@@ -197,6 +198,67 @@
   line-height: 10px;
   font-size: 13px;
   text-decoration: line-through;
+}
+/* 数字专辑 */
+.digital-album{
+  display: flex;
+  width: calc(100% - 60px);
+  padding: 0 30px;
+  height: 180px;
+  background: #f9f9f9;
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.digital-album-text{
+  text-align: left;
+}
+.digital-album-title{
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 10px;
+  line-height: 46px;
+}
+.digital-album-title::before {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+  background: url(../images/digitalicon.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+.text-desc{
+  font-size: 16px;
+  color: rgba(0,0,0,0.7);
+  line-height: 36px;
+}
+.buy-now{
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  line-height: 40px;
+  margin-top: 10px;
+}
+.digital-album-img img:first-child{
+  width: 100px;
+  height: 100px;
+  margin-right: -60px;
+  vertical-align: super;
+}
+.digital-album-img img:last-child{
+  position: relative;
+}
+.digital-album-img::after{
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 120px;
+  background: url(../images/pointlist.png) 0 -75px no-repeat;
+  margin-left: -15px;
 }
 /* 页脚样式 */
 footer{
