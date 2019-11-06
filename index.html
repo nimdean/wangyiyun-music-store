@@ -9,6 +9,8 @@
   <link rel="stylesheet" type="text/css" href="./css/index.css" />
   <script src="./js/jquery-3.4.1.js"></script>
   <script src="./js/index.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
 </head>
 <body>
   <header class="index-header">
@@ -146,5 +148,8 @@
       </ul>
     </div>
   </footer>
+  <script>
+    axios.post('http://localhost:3000/allProduct/gets',{current: 1,pageSize: 10}).then(rs => console.log(rs))
+  </script>
 </body>
 </html>
